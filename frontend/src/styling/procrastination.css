@@ -1,0 +1,99 @@
+* {
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.html {
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 5.5rem;
+    width: auto;
+}
+
+/* Navbar */
+
+.btn {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.logo {
+    margin-right: 5rem;
+}
+
+.links {
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.navbar {
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: 1.75fr 1fr;
+    align-items: center;
+    justify-content: center;
+    /* margin: 1rem;
+    padding: 1rem; */
+
+}
+
+.navbar img {
+    /* background-color: aquamarine; */
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* Websites */
+
+.websites {
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.websites a {
+    align-items: center;
+    justify-content: center;
+}
+
+.read {
+    margin-left: 2.75rem;
+}
+
+.windows {
+    display: flex;
+    margin: 0.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnails {
+    display: flex;
+    border: 2px solid black;
+    margin: 1.5rem;
+    padding: 3rem;
+}
+
+.thumbnails:hover {
+    background-color: orange;
+    transition: 0.3s ease;
+}
