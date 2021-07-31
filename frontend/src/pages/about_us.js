@@ -21,9 +21,7 @@ function about_us() {
             <a href = {'/profile'}>
             <Button class="btn" buttonText={"Profile"} clickAction={profile_page} />
             </a>
-                <h3 class="btn">Focus</h3>
                 <Button class="btn" buttonText={"GO BACK TO WORK"} clickAction={getResult} />
-                <Button class="btn" buttonText={"Sign Out"} clickAction={getSignOut}/>
                 
             </div>
             <div>

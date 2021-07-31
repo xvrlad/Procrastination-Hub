@@ -34,7 +34,7 @@ function profile_page() {
         <div class="profile">
           <h1>Profile</h1><br></br>
           <p>
-            <b>Name: </b>Samin Yasar<br></br> <b>Username: </b>syas141<br></br> <b>Email: </b>samin123@gmail.com<br></br> 
+            <b>Name: </b>Samin Yasar<br></br> <b>Username: </b>syas141<br></br> <b>Email: </b>samin123@gmail.com<br></br><br></br> 
           </p>
           <h2>Weekly Leaderboard</h2>
           <table>
@@ -69,7 +69,7 @@ function profile_page() {
           </table>
           <br></br><br></br>
         </div>
-        <img class = "chart" src = "./Untitled.png"></img>
+        <img class = "chart" src = "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0f297862-be32-4fe8-b270-8cbf9ec256b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210731T232805Z&X-Amz-Expires=86400&X-Amz-Signature=cea108d868cf99ded6178300147d04ce00e6d954e1d92f1cc03b60d6024e5c7e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22"></img>
         </div>
         </div>
     </div>

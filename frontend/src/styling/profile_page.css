@@ -60,8 +60,10 @@ table, th, td {
     margin-left: 20px;
   }
   .chart {
-      height: 250;
+      height: 100%;
+      width: auto;
       margin-left: 250px;
+      margin-top: 3em;
       
   }
 
@@ -78,4 +80,5 @@ table, th, td {
       linear-gradient(45deg, var(--bg) 25%, transparent 25%);
     background-size: 100px 100px;
     background-color: var(--stripe);
+    min-height: 100vh;
   }
