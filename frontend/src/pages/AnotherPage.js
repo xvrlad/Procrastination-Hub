@@ -24,10 +24,10 @@ function AnotherPage() {
         <input type={showPassword? "text": "password"} id="passwordInput"></input>
         {/* Need to implement another page change here */}
         <a href = {'/'}>
-        <Button buttonText={"Sign Up"} />
+        <Button buttonText={"Sign In"} />
         </a>
         <a href={'/'}>
-        <Button buttonText={'Login'}/>
+        <Button buttonText={'Register'}/>
         </a>
       </div>
     </div>
