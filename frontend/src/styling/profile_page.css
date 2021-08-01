@@ -34,6 +34,7 @@ p{
     grid-template-columns: 1.75fr 1fr;
     align-items: center;
     justify-content: center;
+    width: 100%;
     /* margin: 1rem;
     padding: 1rem; */
 

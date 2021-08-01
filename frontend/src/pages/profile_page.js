@@ -3,6 +3,7 @@ import '../styling/profile_page.css';
 import Button from '../components/Button';
 import { getMeaningOfLife } from '../utils/ExampleUtil';
 import about_us from './about_us';
+import Procrastination from './Procrastination';
 
 function getResult() {
     alert(`Why would you want to do that?`)
@@ -20,13 +21,15 @@ function profile_page() {
     <div>
       <div class = 'body'>
       <div class="navbar">
-            <img class= "logo" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e2e65a73-04bd-4fd8-a873-bb33ba3ed9d6/Image_31-07-21_at_11.58_AM.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210731T025039Z&X-Amz-Expires=86400&X-Amz-Signature=bdd46ef1d539981ad8b2c558a355ca99b3a9d0fb987916e687578b6f3ed5a859&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Image_31-07-21_at_11.58_AM.jpg%22"></img>
+      <a href="/"><img class= "logo" src="./img/logo sc.png"></img></a>
             <div class= "links">
               <a href = {'/about'}>
                 <Button class="btn" buttonText={"About Us"} clickAction={about_us}/>
                 </a>
-                <Button class="btn" buttonText={"GO BACK TO WORK"} clickAction={getResult} />
-                <Button class="btn" buttonText={"Sign Out"} clickAction={getSignOut}/>
+              <a href = {'/procrastination'}>
+                <Button class="btn" buttonText={"Procrastinate"} clickAction={Procrastination}/>
+                </a>
+                <Button class="btn" buttonText={"Go back to Work"} clickAction={getResult} />
                 
             </div>
         </div>
@@ -69,7 +72,7 @@ function profile_page() {
           </table>
           <br></br><br></br>
         </div>
-        <img class = "chart" src = "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0f297862-be32-4fe8-b270-8cbf9ec256b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210731T232805Z&X-Amz-Expires=86400&X-Amz-Signature=cea108d868cf99ded6178300147d04ce00e6d954e1d92f1cc03b60d6024e5c7e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22"></img>
+        <img class = "chart image" src = "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0f297862-be32-4fe8-b270-8cbf9ec256b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210731T232805Z&X-Amz-Expires=86400&X-Amz-Signature=cea108d868cf99ded6178300147d04ce00e6d954e1d92f1cc03b60d6024e5c7e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22"></img>
         </div>
         </div>
     </div>

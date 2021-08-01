@@ -10,7 +10,12 @@ function AnotherPage() {
   const [showPassword] = useState(false)
   return (
     <div class="body">
-      <h1>Sign Up</h1>
+      <div class="navbar">
+        <img src="./img/logo sc.png"></img>
+      </div>
+      
+      <div class="section">
+        <h1>Sign Up</h1>
       <div class = "signUpBox">
         <h3><b>First Name</b></h3>
         <input type="text" id="firstName" name="lastName"></input>
@@ -30,6 +35,8 @@ function AnotherPage() {
         <Button buttonText={'Register'}/>
         </a>
       </div>
+      </div>
+      
     </div>
 
   );

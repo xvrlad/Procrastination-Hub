@@ -29,8 +29,11 @@ function IndexPage() {
     <div id={'index-container'}>
       <div className={'spacer'} />
       <div className={'content'}>
-        <h1>Procrastination Hub</h1>
-        <h3>"Just do it, later."</h3>
+        <div class="title">
+          <img class="image" src="./img/logo sc.png"></img>
+          <h2>"Just do it, later."</h2>
+        </div>
+        
         <div class = "signUpBox">
         <p><b>Username</b></p>
         <div class="stroke">

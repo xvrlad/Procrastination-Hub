@@ -1,3 +1,9 @@
+.html {
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
 .btn {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -45,4 +51,31 @@
 }
 p {
     font-size: 18px;
+}
+
+
+.content {
+    /* background-color: antiquewhite; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.text p {
+    margin: 0.3rem;
+    padding: 0.3rem;
+}
+
+.text {
+    /* background-color: brown; */
+    /* display: flex; */
+    width: 20rem;
+    margin-left: 5rem;
+}
+
+.content img {
+    height: auto;
+    width: 750px;
 }
