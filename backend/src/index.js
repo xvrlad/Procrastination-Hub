@@ -3,6 +3,9 @@ const cors = require('cors');
 const path = require('path');
 const connectToDatabase = require('./db/db-connect');
 
+const bodyParser = require('body-parser');
+require('dotenv').config();
+
 // Setup Express
 const app = express();
 const origin = "http://localhost:3000";
@@ -18,6 +21,8 @@ app.use(
 
 // Setup our routes.
 const routes = require('./routes');
+const { db } = require('./models/User');
+
 app.use('/', routes);
 
 // Make the "public" folder available statically
